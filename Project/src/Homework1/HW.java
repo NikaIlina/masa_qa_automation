@@ -41,11 +41,11 @@ public class HW {
         char quotes = '"';
         char cd = 0x0950;
 
-        System.out.println("Chart1 = "+letter);
-        System.out.println("Chart2 = "+num);
-        System.out.println("Chart3 = "+code);
-        System.out.println("Chart4 = "+quotes);
-        System.out.println("Chart5 = "+cd);
+        System.out.println("Char1 = "+letter);
+        System.out.println("Char2 = "+num);
+        System.out.println("Char3 = "+code);
+        System.out.println("Char4 = "+quotes);
+        System.out.println("Char5 = "+cd);
 
 
 
