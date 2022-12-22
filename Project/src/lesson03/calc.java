@@ -16,7 +16,7 @@ public class calc {
         System.out.println("Введите первое число: ");
         secstnum = input.nextDouble();
 
-    System.out.println("firstnum = " + firstnum);
+        System.out.println("firstnum = " + firstnum);
         System.out.println("secstnum = " + secstnum);
         System.out.println(firstnum + "+" + secstnum + "=" + (firstnum + secstnum));
         System.out.println(firstnum + "-" + secstnum + "=" + (firstnum - secstnum));
