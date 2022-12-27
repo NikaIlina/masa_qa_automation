@@ -1,4 +1,4 @@
-package Lesson0301;
+package Lesson0301.HW;
 
 import java.util.Scanner;
 // Task 2
