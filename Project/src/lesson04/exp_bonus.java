@@ -36,5 +36,6 @@ public class exp_bonus {
         }
         System.out.println("Ваш бонус = " + bonus);
         System.out.println("Ваша заплата = " + (wage + bonus));
+
     }
 }
