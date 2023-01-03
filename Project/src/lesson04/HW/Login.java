@@ -8,11 +8,10 @@ public class Login {
 
         String usernamecorrect = "Admin";
         String passwordcorrect = "P@ssword";
-        int tries = 0;
 
         Scanner input = new Scanner(System.in);
 
-        while (tries < 5) {
+        for (int i = 0; i < 5; i++) {
 
             System.out.println("Enter your User name:");
 
@@ -24,10 +23,11 @@ public class Login {
 
             if (username.equalsIgnoreCase(usernamecorrect) && password.equals(passwordcorrect)) {
                 System.out.println("Hello, " + usernamecorrect + "!");
+                break;
 
             } else {
-                tries ++;
-                System.out.println("Wrong data! Try again, you have " +(5 - tries) + " tries");
+
+                System.out.println("Wrong data! Try again, you have " +(5 - i) + " tries");
             }
         }
         input.close();

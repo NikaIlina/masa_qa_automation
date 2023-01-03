@@ -1,18 +1,17 @@
-package lesson04.HW;
+package lesson04;
 
 import java.util.Scanner;
 
-public class testlogin {
+public class Logintest {
 
     public static void main(String[] args) {
 
         String usernamecorrect = "Admin";
         String passwordcorrect = "P@ssword";
-        int tries = 0;
 
         Scanner input = new Scanner(System.in);
 
-        while (tries < 5) {
+        for (int i = 0; i < 5; i++) {
 
             System.out.println("Enter your User name:");
 
@@ -24,13 +23,13 @@ public class testlogin {
 
             if (username.equalsIgnoreCase(usernamecorrect) && password.equals(passwordcorrect)) {
                 System.out.println("Hello, " + usernamecorrect + "!");
+                break;
 
             } else {
-                tries ++;
-                System.out.println("Wrong data! Try again");
+
+                System.out.println("Wrong data! Try again, you have " +(5 - i) + " tries");
             }
         }
         input.close();
-        }
-        }
-
+    }
+}
