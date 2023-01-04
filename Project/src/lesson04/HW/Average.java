@@ -7,7 +7,7 @@ public class Average {
 
         for (int i = 0; i <= 100 ; i++) {
             sum += i;
-            average = (sum / 100);
+            average = (sum / i);
         }
         System.out.println("Sum of numbers = " + sum);
         System.out.println("Average = " + average);
